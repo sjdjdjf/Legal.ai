@@ -1,0 +1,487 @@
+[
+  {
+    "category": "Employment Law",
+    "questions": [
+      {
+        "q": "What is wrongful termination?",
+        "a": "Wrongful termination occurs when an employee is dismissed without proper legal grounds, violating labor laws or the employment contract. This includes termination based on discrimination, retaliation, or breach of contract terms."
+      },
+      {
+        "q": "Do employees need a written contract?",
+        "a": "In most jurisdictions, written employment contracts are highly recommended and sometimes required. They protect both employer and employee by clearly defining terms, responsibilities, compensation, and termination procedures."
+      },
+      {
+        "q": "What's the difference between an employee and contractor?",
+        "a": "Employees work under company control, receive benefits, and have taxes withheld. Contractors work independently, manage their own taxes and benefits, and typically have more control over how work is performed."
+      },
+      {
+        "q": "Can employers fire without notice?",
+        "a": "Generally no, unless the employee commits serious misconduct (theft, violence, gross negligence). Most jurisdictions require reasonable notice or payment in lieu of notice for termination without cause."
+      },
+      {
+        "q": "What is a probation period?",
+        "a": "A probation period is a trial period at the start of employment where performance is assessed. During this time, employers typically have more flexibility to terminate employment with shorter notice periods."
+      },
+      {
+        "q": "Are non-compete clauses enforceable?",
+        "a": "Non-compete enforceability varies by jurisdiction. They must be reasonable in scope, duration, and geographic area. Courts often scrutinize them to ensure they don't unfairly restrict an employee's ability to earn a living."
+      },
+      {
+        "q": "What constitutes workplace harassment?",
+        "a": "Workplace harassment includes unwelcome conduct based on protected characteristics (race, gender, religion, etc.) that creates a hostile work environment or affects employment decisions. It can be verbal, physical, or visual."
+      },
+      {
+        "q": "Can employees work overtime without pay?",
+        "a": "Most jurisdictions require overtime pay for non-exempt employees working beyond standard hours (typically 40 hours/week). Exempt employees (usually salaried professionals) may not be entitled to overtime pay."
+      },
+      {
+        "q": "What are employee rights during layoffs?",
+        "a": "Employees typically have rights to advance notice (or pay in lieu), severance pay based on tenure, continuation of benefits, and assistance with job placement. Rights vary by jurisdiction and company policy."
+      },
+      {
+        "q": "Can employers monitor employee communications?",
+        "a": "Employers generally can monitor work-related communications on company devices and networks, but must often provide notice. Personal communications and off-duty activities have greater privacy protections."
+      },
+      {
+        "q": "What is constructive dismissal?",
+        "a": "Constructive dismissal occurs when an employer makes working conditions so intolerable that an employee is forced to resign. This can include significant changes to job duties, pay cuts, or hostile treatment."
+      },
+      {
+        "q": "Are unpaid internships legal?",
+        "a": "Unpaid internships are legal if they meet specific criteria: primarily educational, benefit the intern, don't displace regular employees, and the employer derives no immediate advantage from the intern's work."
+      },
+      {
+        "q": "What is employment at will?",
+        "a": "Employment at will means either employer or employee can terminate the relationship at any time, for any reason (except illegal reasons like discrimination), without advance notice. This doctrine varies by jurisdiction."
+      },
+      {
+        "q": "Can employers require mandatory overtime?",
+        "a": "In most cases, yes. Employers can require overtime work, but must pay appropriate overtime rates. Some jurisdictions limit excessive mandatory overtime, especially in healthcare and transportation."
+      },
+      {
+        "q": "What are whistleblower protections?",
+        "a": "Whistleblower laws protect employees who report illegal activities, safety violations, or fraud from retaliation. Protected activities include reporting to authorities or refusing to participate in illegal conduct."
+      },
+      {
+        "q": "Can employees be fired for social media posts?",
+        "a": "Generally yes, if posts violate company policy, damage the employer's reputation, or occur during work hours. However, some posts about working conditions or organizing activities may be protected."
+      },
+      {
+        "q": "What is reasonable accommodation for disabilities?",
+        "a": "Reasonable accommodation includes modifications to job duties, work environment, or schedule that enable disabled employees to perform essential functions, unless it causes undue hardship to the employer."
+      },
+      {
+        "q": "Are meal and rest breaks required?",
+        "a": "Break requirements vary by jurisdiction. Many require meal breaks for shifts over a certain length and rest breaks during the workday. Some jurisdictions have no mandated break requirements."
+      },
+      {
+        "q": "Can employers change employment terms unilaterally?",
+        "a": "Significant changes to employment terms typically require employee consent or reasonable notice. Unilateral changes to fundamental terms may constitute constructive dismissal in some jurisdictions."
+      },
+      {
+        "q": "What is the difference between termination and resignation?",
+        "a": "Termination is when the employer ends the employment relationship, while resignation is when the employee voluntarily leaves. Each has different legal implications for notice, severance, and benefits."
+      },
+      {
+        "q": "Are workplace dress codes enforceable?",
+        "a": "Yes, employers can generally enforce reasonable dress codes that serve legitimate business purposes, provided they don't discriminate based on protected characteristics or religious beliefs."
+      },
+      {
+        "q": "What constitutes a hostile work environment?",
+        "a": "A hostile work environment exists when harassment or discrimination is so severe or pervasive that it alters working conditions and creates an abusive atmosphere. It must be based on protected characteristics."
+      },
+      {
+        "q": "Can employees be required to sign arbitration agreements?",
+        "a": "In many jurisdictions, yes. Employers can require arbitration agreements as a condition of employment, though some limitations exist for certain types of claims and the agreements must be fair and reasonable."
+      }
+    ]
+  },
+  {
+    "category": "Business & Contracts",
+    "questions": [
+      {
+        "q": "What makes a contract legally binding?",
+        "a": "A legally binding contract requires: (1) offer, (2) acceptance, (3) consideration (something of value exchanged), (4) mutual intent to create legal relations, and (5) legal capacity of all parties to enter the agreement."
+      },
+      {
+        "q": "Do contracts need to be in writing?",
+        "a": "Not all contracts need to be written, but certain types must be (real estate, contracts over a certain value, agreements lasting over one year). Written contracts are always recommended for clarity and enforceability."
+      },
+      {
+        "q": "What is breach of contract?",
+        "a": "Breach of contract occurs when one party fails to perform any duty or obligation specified in the contract. This can be material (fundamental) or minor breach, each with different legal remedies available."
+      },
+      {
+        "q": "Can I cancel a signed contract?",
+        "a": "Generally, signed contracts are binding. However, you may cancel if: the contract includes a cancellation clause, there was fraud/duress/misrepresentation, you're within a legal cooling-off period, or both parties agree to cancel."
+      },
+      {
+        "q": "What is consideration in contracts?",
+        "a": "Consideration is something of value exchanged between parties - money, goods, services, or promises. Both parties must provide consideration for a contract to be legally binding. Past consideration typically doesn't count."
+      },
+      {
+        "q": "What happens if contract terms are unclear?",
+        "a": "Ambiguous contract terms are typically interpreted against the party who drafted them. Courts may look at the parties' conduct, industry standards, and the contract's overall purpose to determine meaning."
+      },
+      {
+        "q": "Are verbal agreements enforceable?",
+        "a": "Verbal agreements can be legally binding if they meet contract requirements, but they're harder to prove in court. For important agreements, written contracts are strongly recommended to avoid disputes."
+      },
+      {
+        "q": "What is force majeure in contracts?",
+        "a": "Force majeure clauses excuse parties from contract obligations due to extraordinary circumstances beyond their control - natural disasters, wars, pandemics, or government actions that make performance impossible."
+      },
+      {
+        "q": "Can minors enter into contracts?",
+        "a": "Minors can enter contracts, but these are generally voidable at the minor's option until they reach majority age. Contracts for necessities (food, shelter, medical care) are typically enforceable against minors."
+      },
+      {
+        "q": "What is assignment of contracts?",
+        "a": "Assignment transfers contract rights to a third party. Most contracts can be assigned unless they involve personal services, are prohibited by contract terms, or would materially change the other party's obligations."
+      },
+      {
+        "q": "What are liquidated damages?",
+        "a": "Liquidated damages are predetermined compensation amounts specified in contracts for breach. They must be reasonable estimates of actual damages and not punitive penalties to be enforceable."
+      },
+      {
+        "q": "Can contracts be modified after signing?",
+        "a": "Yes, contracts can be modified if both parties agree to the changes. Modifications should be in writing and may require additional consideration to be enforceable, depending on jurisdiction."
+      },
+      {
+        "q": "What is specific performance?",
+        "a": "Specific performance is a court order requiring a party to perform their exact contractual obligations rather than paying damages. It's typically used for unique items like real estate or rare goods."
+      },
+      {
+        "q": "Are penalty clauses enforceable?",
+        "a": "Pure penalty clauses are generally not enforceable as they're designed to punish rather than compensate. However, reasonable liquidated damages clauses that estimate actual losses are typically enforceable."
+      },
+      {
+        "q": "What is a material breach?",
+        "a": "A material breach is a significant failure to perform that defeats the contract's purpose and deprives the other party of expected benefits. It typically allows the non-breaching party to terminate and seek damages."
+      },
+      {
+        "q": "Can contracts have illegal terms?",
+        "a": "Contracts cannot enforce illegal activities. If part of a contract is illegal, courts may void the entire contract or just the illegal portions (severability), depending on how integral the illegal terms are."
+      },
+      {
+        "q": "What is mutual mistake in contracts?",
+        "a": "Mutual mistake occurs when both parties share the same incorrect assumption about a fundamental fact. This can make a contract voidable if the mistake goes to the essence of the agreement."
+      },
+      {
+        "q": "Are electronic signatures valid?",
+        "a": "Yes, electronic signatures are generally valid and enforceable under laws like the Electronic Signatures in Global and National Commerce Act (E-SIGN) and similar international legislation."
+      },
+      {
+        "q": "What is anticipatory breach?",
+        "a": "Anticipatory breach occurs when one party clearly indicates they won't perform their contractual obligations before performance is due. The other party can immediately seek remedies without waiting for the breach."
+      },
+      {
+        "q": "Can contracts be unconscionable?",
+        "a": "Yes, unconscionable contracts are so unfair or one-sided that they shock the conscience. Courts can refuse to enforce them, especially when there's unequal bargaining power or procedural unfairness."
+      },
+      {
+        "q": "What is novation in contracts?",
+        "a": "Novation replaces an existing contract with a new one, typically involving new parties or substantially different terms. It requires agreement from all parties and extinguishes the original contract."
+      },
+      {
+        "q": "Are contracts of adhesion enforceable?",
+        "a": "Contracts of adhesion (standard form contracts with no negotiation) are generally enforceable, but courts scrutinize them more carefully for unconscionable terms or lack of meaningful choice."
+      },
+      {
+        "q": "What is the parol evidence rule?",
+        "a": "The parol evidence rule prevents parties from introducing oral or written evidence that contradicts or adds to the terms of a complete, integrated written contract. Some exceptions exist for fraud or mistake."
+      }
+    ]
+  },
+  {
+    "category": "Property & Rental",
+    "questions": [
+      {
+        "q": "What makes a rental agreement valid?",
+        "a": "A valid rental agreement requires: identification of parties, property description, rental amount and payment terms, lease duration, signatures of all parties, and compliance with local rental laws and regulations."
+      },
+      {
+        "q": "Can landlords increase rent anytime?",
+        "a": "No, rent increases must follow local laws and lease terms. Most jurisdictions require advance notice (30-90 days) and may limit the frequency and amount of increases, especially in rent-controlled areas."
+      },
+      {
+        "q": "What is a security deposit?",
+        "a": "A security deposit is money paid upfront by tenants to cover potential damages or unpaid rent. It must be returned (minus legitimate deductions) within a specified time after lease termination, usually 30 days."
+      },
+      {
+        "q": "Can landlords enter rental property anytime?",
+        "a": "No, landlords must provide reasonable notice (typically 24-48 hours) except for emergencies. They can enter for repairs, inspections, or showing to prospective tenants, but must respect tenant privacy rights."
+      },
+      {
+        "q": "What happens if tenants break the lease early?",
+        "a": "Early lease termination may result in penalties, forfeiture of security deposit, or liability for remaining rent. Some jurisdictions allow early termination for specific reasons like military deployment or domestic violence."
+      },
+      {
+        "q": "Are oral rental agreements enforceable?",
+        "a": "Short-term oral rental agreements (typically under one year) may be enforceable, but written agreements are strongly recommended. Longer-term leases usually must be in writing under the Statute of Frauds."
+      },
+      {
+        "q": "Can landlords discriminate in tenant selection?",
+        "a": "No, fair housing laws prohibit discrimination based on race, color, religion, sex, national origin, familial status, or disability. Landlords can use legitimate criteria like income, credit history, and references."
+      },
+      {
+        "q": "What are tenant rights for repairs?",
+        "a": "Tenants have the right to habitable living conditions. Landlords must maintain the property and make necessary repairs. In some cases, tenants can withhold rent or make repairs and deduct costs for serious habitability issues."
+      },
+      {
+        "q": "Can tenants sublet their rental?",
+        "a": "Subletting depends on lease terms and local laws. Many leases prohibit or require landlord approval for subletting. Tenants remain responsible for rent and property condition even when subletting."
+      },
+      {
+        "q": "What is constructive eviction?",
+        "a": "Constructive eviction occurs when landlord actions or negligence make the property uninhabitable, forcing tenants to leave. This can include cutting off utilities, failing to make essential repairs, or harassment."
+      },
+      {
+        "q": "How much notice is required for eviction?",
+        "a": "Eviction notice requirements vary by jurisdiction and reason. Typical notices range from 3 days for non-payment of rent to 30 days for lease violations or month-to-month terminations."
+      },
+      {
+        "q": "Can landlords keep security deposits for normal wear?",
+        "a": "No, security deposits cannot be used for normal wear and tear - the expected deterioration from ordinary use. Landlords can only deduct for damages beyond normal wear, unpaid rent, or cleaning costs."
+      },
+      {
+        "q": "What is the difference between a lease and rental agreement?",
+        "a": "Leases are typically fixed-term agreements (6 months, 1 year) with stable rent and terms. Rental agreements are usually month-to-month with more flexibility but less security for both parties."
+      },
+      {
+        "q": "Are rent control laws still in effect?",
+        "a": "Rent control exists in some cities and states, limiting rent increases and providing tenant protections. These laws vary significantly by location and may apply only to certain types of properties or tenancies."
+      },
+      {
+        "q": "Can tenants make modifications to rental property?",
+        "a": "Tenants typically need landlord permission for modifications. Minor changes like hanging pictures may be allowed, while major alterations usually require written consent and may need to be reversed upon move-out."
+      },
+      {
+        "q": "What happens if rental property is sold?",
+        "a": "Generally, existing leases transfer to new owners, and tenants can continue under the same terms. However, some jurisdictions allow new owners to terminate month-to-month tenancies with proper notice."
+      },
+      {
+        "q": "Are emotional support animals allowed in no-pet rentals?",
+        "a": "Under fair housing laws, emotional support animals are reasonable accommodations for disabilities and may be allowed even in no-pet properties, though landlords can request proper documentation."
+      },
+      {
+        "q": "Can landlords charge application fees?",
+        "a": "Many jurisdictions allow reasonable application fees to cover screening costs (credit checks, background checks). However, some areas limit or prohibit these fees, and they must be reasonable and actual costs."
+      },
+      {
+        "q": "What is a holdover tenant?",
+        "a": "A holdover tenant remains in the property after lease expiration without landlord consent. This can result in eviction proceedings or, if rent is accepted, creation of a new periodic tenancy."
+      },
+      {
+        "q": "Are lease guarantors legally responsible?",
+        "a": "Yes, lease guarantors (co-signers) are legally responsible for rent and damages if tenants default. They should understand they're taking on the same financial obligations as the primary tenant."
+      },
+      {
+        "q": "Can landlords require renters insurance?",
+        "a": "Yes, landlords can require tenants to carry renters insurance as a lease condition. This protects tenants' personal property and provides liability coverage, reducing potential landlord liability."
+      },
+      {
+        "q": "What constitutes illegal retaliation by landlords?",
+        "a": "Illegal retaliation includes raising rent, decreasing services, or threatening eviction in response to tenant complaints about habitability, reporting code violations, or exercising legal rights."
+      },
+      {
+        "q": "Are short-term vacation rentals subject to different rules?",
+        "a": "Yes, short-term rentals often have different regulations, licensing requirements, tax obligations, and zoning restrictions. Many cities have specific ordinances governing platforms like Airbnb and VRBO."
+      }
+    ]
+  },
+  {
+    "category": "Intellectual Property",
+    "questions": [
+      {
+        "q": "What is intellectual property?",
+        "a": "Intellectual property (IP) refers to creations of the mind: inventions, literary and artistic works, designs, symbols, names, and images used in commerce. It's protected by patents, copyrights, trademarks, and trade secrets."
+      },
+      {
+        "q": "How long does copyright protection last?",
+        "a": "Copyright typically lasts for the author's lifetime plus 50-70 years (varies by country). For works made for hire or corporate authorship, it's usually 95-120 years from creation or publication."
+      },
+      {
+        "q": "What can be trademarked?",
+        "a": "Trademarks protect words, phrases, symbols, designs, or combinations that identify and distinguish goods or services. They must be distinctive and used in commerce to qualify for protection."
+      },
+      {
+        "q": "Do I need to register copyright to have protection?",
+        "a": "No, copyright exists automatically when an original work is created and fixed in tangible form. However, registration provides additional legal benefits, including the ability to sue for infringement and statutory damages."
+      },
+      {
+        "q": "What is fair use in copyright?",
+        "a": "Fair use allows limited use of copyrighted material without permission for purposes like criticism, comment, news reporting, teaching, or research. Courts consider purpose, nature, amount used, and market impact."
+      },
+      {
+        "q": "How do I protect a business idea?",
+        "a": "Ideas alone can't be copyrighted or patented. Protect them through: non-disclosure agreements, developing them into protectable IP (patents for inventions, trademarks for brands), or keeping them as trade secrets."
+      },
+      {
+        "q": "What is the difference between patent and copyright?",
+        "a": "Patents protect inventions and functional innovations for 20 years. Copyrights protect original creative expressions (books, music, art) for much longer periods. Patents require registration; copyrights exist automatically."
+      },
+      {
+        "q": "Can I use copyrighted music in my business?",
+        "a": "Using copyrighted music typically requires licenses from rights holders or performing rights organizations (ASCAP, BMI, SESAC). Different licenses are needed for different uses (performance, synchronization, mechanical)."
+      },
+      {
+        "q": "What is trademark infringement?",
+        "a": "Trademark infringement occurs when someone uses a mark that's confusingly similar to a registered trademark in connection with related goods/services, likely to cause consumer confusion about source or affiliation."
+      },
+      {
+        "q": "How do I register a trademark?",
+        "a": "File an application with the relevant trademark office, including the mark, goods/services it will identify, and evidence of use or intent to use. The process includes examination, publication, and potential opposition periods."
+      },
+      {
+        "q": "What are trade secrets?",
+        "a": "Trade secrets are confidential business information that provides competitive advantage - formulas, processes, customer lists, etc. They're protected indefinitely as long as they remain secret and reasonable steps are taken to maintain secrecy."
+      },
+      {
+        "q": "Can I patent software?",
+        "a": "Software can be patentable if it's part of a technical solution to a technical problem, not just an abstract idea or mathematical algorithm. Patent eligibility for software varies by jurisdiction and continues to evolve."
+      },
+      {
+        "q": "What is work made for hire?",
+        "a": "Work made for hire is created by employees within their job scope or by independent contractors under specific written agreements. The employer/commissioning party owns the copyright, not the creator."
+      },
+      {
+        "q": "How do I license my intellectual property?",
+        "a": "IP licensing involves granting others permission to use your IP under specified terms. License agreements should define scope, duration, territory, royalties, quality control, and termination conditions."
+      },
+      {
+        "q": "What is prior art in patents?",
+        "a": "Prior art is existing knowledge or technology that predates a patent application. It's used to determine if an invention is novel and non-obvious. Prior art can include patents, publications, products, or public use."
+      },
+      {
+        "q": "Can I trademark a domain name?",
+        "a": "Domain names themselves aren't trademarkable, but they can function as trademarks if they identify and distinguish goods/services. The key is whether the domain is used as a source identifier, not just an address."
+      },
+      {
+        "q": "What is copyright infringement?",
+        "a": "Copyright infringement is unauthorized use of copyrighted material that violates the owner's exclusive rights (reproduction, distribution, display, performance, derivative works). Both commercial and non-commercial use can infringe."
+      },
+      {
+        "q": "How do I protect my brand internationally?",
+        "a": "File trademark applications in each country where you want protection, use the Madrid Protocol for multiple countries, or rely on well-known mark protection. Consider local laws, cultural differences, and enforcement mechanisms."
+      },
+      {
+        "q": "What is a provisional patent application?",
+        "a": "A provisional patent application is a temporary, less formal filing that establishes an early priority date. It's valid for one year and must be followed by a regular patent application to maintain priority."
+      },
+      {
+        "q": "Can I use someone else's trademark in advertising?",
+        "a": "Using others' trademarks in advertising is risky and may constitute infringement. Comparative advertising may be allowed if truthful and not confusing, but nominative fair use has strict requirements."
+      },
+      {
+        "q": "What is the public domain?",
+        "a": "Public domain includes works not protected by IP rights - either because protection expired, was forfeited, or never existed. These works can be used freely without permission or payment."
+      },
+      {
+        "q": "How do I enforce my intellectual property rights?",
+        "a": "Enforcement options include cease and desist letters, negotiation, mediation, arbitration, or litigation. Consider the strength of your rights, potential damages, costs, and likelihood of success before proceeding."
+      },
+      {
+        "q": "What is a design patent?",
+        "a": "Design patents protect the ornamental appearance of functional items - the way something looks, not how it works. They last 15 years from grant and are easier to obtain than utility patents."
+      }
+    ]
+  },
+  {
+    "category": "General Legal Help",
+    "questions": [
+      {
+        "q": "When do I need a lawyer?",
+        "a": "Consider hiring a lawyer for: complex legal matters, significant financial stakes, criminal charges, business formation, real estate transactions, family law issues, or when you don't understand your legal rights and obligations."
+      },
+      {
+        "q": "How do I find a good lawyer?",
+        "a": "Find lawyers through: bar association referrals, online directories, personal recommendations, legal aid organizations, or law school clinics. Check credentials, experience, specialization, and client reviews."
+      },
+      {
+        "q": "What should I expect in a legal consultation?",
+        "a": "Bring relevant documents, prepare questions, be honest about facts, discuss fees and timeline, understand the lawyer's assessment of your case, and clarify next steps and communication expectations."
+      },
+      {
+        "q": "How much do lawyers typically charge?",
+        "a": "Legal fees vary widely: hourly rates ($150-$1000+), flat fees for routine matters, contingency fees (percentage of recovery), or retainers. Costs depend on location, complexity, and lawyer experience."
+      },
+      {
+        "q": "What is attorney-client privilege?",
+        "a": "Attorney-client privilege protects confidential communications between lawyers and clients from disclosure. It encourages honest communication and applies even after the attorney-client relationship ends."
+      },
+      {
+        "q": "Can I represent myself in court?",
+        "a": "Yes, you have the right to self-representation (pro se), but it's challenging. Courts expect you to follow all rules and procedures. Consider the complexity of your case and potential consequences."
+      },
+      {
+        "q": "What is the statute of limitations?",
+        "a": "Statutes of limitations set time limits for filing lawsuits. They vary by claim type and jurisdiction - typically 1-6 years for most civil matters, longer for serious crimes, and may be tolled in certain circumstances."
+      },
+      {
+        "q": "What happens if I can't afford a lawyer?",
+        "a": "Options include: legal aid organizations, pro bono programs, law school clinics, limited scope representation, payment plans, or self-help resources. Criminal defendants have the right to appointed counsel."
+      },
+      {
+        "q": "What is alternative dispute resolution?",
+        "a": "ADR includes mediation, arbitration, and negotiation - ways to resolve disputes outside court. It's often faster, cheaper, and more private than litigation, with parties having more control over outcomes."
+      },
+      {
+        "q": "How do I prepare for a deposition?",
+        "a": "Review relevant documents, understand the case facts, listen carefully to questions, answer only what's asked, tell the truth, say 'I don't know' when appropriate, and take breaks if needed."
+      },
+      {
+        "q": "What is the difference between civil and criminal law?",
+        "a": "Civil law involves disputes between private parties seeking monetary damages or other remedies. Criminal law involves government prosecution of individuals for crimes, with potential imprisonment or fines."
+      },
+      {
+        "q": "Can I change lawyers during my case?",
+        "a": "Yes, you can generally change lawyers, but consider timing, costs, potential delays, and your new lawyer's need to get up to speed. You may still owe fees to your previous lawyer."
+      },
+      {
+        "q": "What should I do if I'm served with legal papers?",
+        "a": "Don't ignore them. Read carefully, note deadlines, contact a lawyer if needed, and respond appropriately within time limits. Failure to respond can result in default judgment against you."
+      },
+      {
+        "q": "What is a settlement agreement?",
+        "a": "A settlement agreement resolves a legal dispute without trial. It typically includes payment terms, release of claims, confidentiality provisions, and compliance requirements. Once signed, it's legally binding."
+      },
+      {
+        "q": "How long do lawsuits typically take?",
+        "a": "Lawsuit duration varies greatly - simple cases may resolve in months, complex litigation can take years. Factors include case complexity, court schedules, discovery needs, and willingness to settle."
+      },
+      {
+        "q": "What is legal malpractice?",
+        "a": "Legal malpractice occurs when lawyers fail to provide competent representation, causing client harm. It requires proving: attorney-client relationship, breach of duty, causation, and damages."
+      },
+      {
+        "q": "Can I get legal advice online?",
+        "a": "Online legal information is available, but be cautious about online 'advice.' Many sites provide general information, not specific legal advice. For important matters, consult with a licensed attorney in your jurisdiction."
+      },
+      {
+        "q": "What is a power of attorney?",
+        "a": "A power of attorney is a legal document authorizing someone to act on your behalf. It can be general (broad authority) or limited (specific purposes) and may be durable (continues if you become incapacitated)."
+      },
+      {
+        "q": "What should I include in a will?",
+        "a": "Wills should include: asset distribution, executor appointment, guardian designation for minor children, specific bequests, residuary clause, and proper execution with witnesses according to state law."
+      },
+      {
+        "q": "What is the difference between mediation and arbitration?",
+        "a": "Mediation involves a neutral facilitator helping parties reach agreement - the mediator doesn't decide. Arbitration involves a neutral decision-maker who renders a binding decision after hearing evidence."
+      },
+      {
+        "q": "How do I protect myself from legal liability?",
+        "a": "Consider: appropriate insurance coverage, proper business structure (LLC, corporation), clear contracts, compliance with laws and regulations, documentation of decisions, and regular legal check-ups."
+      },
+      {
+        "q": "What is a class action lawsuit?",
+        "a": "A class action allows one or more plaintiffs to sue on behalf of a larger group with similar claims. It's efficient for cases involving many people with similar injuries from the same defendant's conduct."
+      },
+      {
+        "q": "Can I record conversations for legal purposes?",
+        "a": "Recording laws vary by jurisdiction. Some states require all parties' consent (two-party consent), others only require one party's consent. Check local laws before recording, as violations can be criminal."
+      }
+    ]
+  }
+]
