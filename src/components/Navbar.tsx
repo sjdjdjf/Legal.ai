@@ -25,14 +25,9 @@ export default function Navbar() {
             <Link to="/" className="text-gray-600 hover:text-navy-500 transition-colors font-medium">
               Home
             </Link>
-            <Link to="/chat" className="text-gray-600 hover:text-navy-500 transition-colors font-medium">
-              Legal Chat
+            <Link to="/courses" className="text-gray-600 hover:text-navy-500 transition-colors font-medium">
+              Courses
             </Link>
-            {(user?.isPremium || isCEO) && (
-              <Link to="/contracts" className="text-gray-600 hover:text-navy-500 transition-colors font-medium">
-                Contracts
-              </Link>
-            )}
             <Link to="/pricing" className="text-gray-600 hover:text-navy-500 transition-colors font-medium">
               Pricing
             </Link>
@@ -113,21 +108,12 @@ export default function Navbar() {
                 Home
               </Link>
               <Link
-                to="/chat"
+                to="/courses"
                 className="block px-3 py-2 text-gray-600 hover:text-navy-500 hover:bg-gray-50 rounded-md transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Legal Chat
+                Courses
               </Link>
-              {user?.isPremium && (
-                <Link
-                  to="/contracts"
-                  className="block px-3 py-2 text-gray-600 hover:text-navy-500 hover:bg-gray-50 rounded-md transition-colors"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  Contracts
-                </Link>
-              )}
               <Link
                 to="/pricing"
                 className="block px-3 py-2 text-gray-600 hover:text-navy-500 hover:bg-gray-50 rounded-md transition-colors"
