@@ -1,15 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  BookOpen, 
-  Lock, 
-  CheckCircle, 
-  Clock, 
-  Users,
-  TrendingUp,
-  Award,
-  Play
-} from 'lucide-react';
+import { BookOpen, Lock, CircleCheck as CheckCircle, Clock, Users, TrendingUp, Award, Play } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { EducationService } from '../lib/education';
 import { Course } from '../types/education';

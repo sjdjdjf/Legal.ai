@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Shield, Zap, Globe, CheckCircle, Star, Clock } from 'lucide-react';
+import { ArrowRight, Shield, Zap, Globe, CircleCheck as CheckCircle, Star, Clock } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 const features = [
