@@ -10,8 +10,6 @@ import Pricing from './pages/Pricing';
 import Dashboard from './pages/Dashboard';
 import Login from './pages/Auth/Login';
 import Register from './pages/Auth/Register';
-import Courses from './pages/Courses';
-import CourseDetail from './pages/CourseDetail';
 import About from './pages/About';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
@@ -26,8 +24,8 @@ function App() {
           <main className="flex-1">
             <Routes>
               <Route path="/" element={<Landing />} />
-              <Route path="/courses" element={<Courses />} />
-              <Route path="/courses/:courseId" element={<CourseDetail />} />
+              <Route path="/chat" element={<Chat />} />
+              <Route path="/contracts" element={<Contracts />} />
               <Route path="/pricing" element={<Pricing />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/login" element={<Login />} />
