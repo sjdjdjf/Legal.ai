@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Scale, Mail, Globe, Shield } from 'lucide-react';
 
 export default function Footer() {
@@ -25,10 +26,9 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Product</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="/chat" className="hover:text-gold-400 transition-colors">Legal Chat</a></li>
-              <li><a href="/pricing" className="hover:text-gold-400 transition-colors">Contract Generator</a></li>
-              <li><a href="/pricing" className="hover:text-gold-400 transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-gold-400 transition-colors">API Access</a></li>
+              <li><Link to="/chat" className="hover:text-gold-400 transition-colors">Legal Chat</Link></li>
+              <li><Link to="/pricing" className="hover:text-gold-400 transition-colors">Contract Generator</Link></li>
+              <li><Link to="/pricing" className="hover:text-gold-400 transition-colors">Pricing</Link></li>
             </ul>
           </div>
 
@@ -36,10 +36,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Company</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="/about" className="hover:text-gold-400 transition-colors">About Us</a></li>
-              <li><a href="/privacy" className="hover:text-gold-400 transition-colors">Privacy Policy</a></li>
-              <li><a href="/terms" className="hover:text-gold-400 transition-colors">Terms of Service</a></li>
-              <li><a href="/support" className="hover:text-gold-400 transition-colors">Support</a></li>
+              <li><Link to="/about" className="hover:text-gold-400 transition-colors">About Us</Link></li>
+              <li><Link to="/privacy" className="hover:text-gold-400 transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/terms" className="hover:text-gold-400 transition-colors">Terms of Service</Link></li>
+              <li><a href="mailto:hayshanwow@gmail.com" className="hover:text-gold-400 transition-colors">Support</a></li>
             </ul>
           </div>
         </div>
