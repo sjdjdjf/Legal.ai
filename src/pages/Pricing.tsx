@@ -205,7 +205,7 @@ export default function Pricing() {
         {/* Contract Types */}
         <div className="mt-16 bg-white rounded-xl shadow-lg p-8">
           <h3 className="font-serif font-bold text-2xl text-navy-500 text-center mb-8">
-            35+ Professional Contract Templates Across 7 Categories
+            60+ Professional Contract Templates Across 12 Categories
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {contractTypes.map((contract, index) => (

@@ -82,6 +82,7 @@ export default function Chat() {
                 <Link to="/pricing" className="text-gold-600 hover:text-gold-700 font-medium ml-1">
                   Upgrade to Premium
                 </Link> to unlock all {totalQuestions} legal Q&As.
+                <br />Plus get access to 60+ professional contract templates.
               </p>
             </div>
           )}

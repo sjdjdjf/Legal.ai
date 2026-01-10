@@ -335,8 +335,8 @@ Professional Legal Document Generation Platform
           <h2 className="font-serif font-bold text-2xl mb-4">Professional Legal Documents</h2>
           <p className="text-gold-100 mb-6 max-w-2xl mx-auto">
             {isCEO 
-              ? '🔑 CEO Access: Generate unlimited professional contracts from 25+ Harvard-level templates with AI. All documents include signature lines and professional formatting.'
-              : 'All contracts are generated with Harvard-trained AI and are legally binding when properly executed. Choose from 25+ professional templates with signature lines and formatting.'
+              ? '🔑 CEO Access: Generate unlimited professional contracts from 60+ Harvard-level templates with AI. All documents include signature lines and professional formatting.'
+              : 'All contracts are generated with Harvard-trained AI and are legally binding when properly executed. Choose from 60+ professional templates with signature lines and formatting.'
             }
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -346,11 +346,11 @@ Professional Legal Document Generation Platform
             </div>
             <div className="flex items-center space-x-2">
               <Check className="h-5 w-5" />
-              <span>25+ Contract Types</span>
+              <span>60+ Contract Types</span>
             </div>
             <div className="flex items-center space-x-2">
               <Check className="h-5 w-5" />
-              <span>7 Legal Categories</span>
+              <span>12 Legal Categories</span>
             </div>
             <div className="flex items-center space-x-2">
               <Check className="h-5 w-5" />

@@ -532,10 +532,286 @@ export const contractTemplates: Contract[] = [
   }
 ];
 
+// Additional Professional Contract Templates
+const additionalContracts: Contract[] = [
+  // Healthcare & Medical
+  {
+    id: 'medical-services',
+    type: 'medical-services' as const,
+    title: 'Medical Services Agreement',
+    description: 'Professional medical services contract between healthcare providers and patients',
+    fields: [
+      { name: 'provider', label: 'Healthcare Provider Name', type: 'text', required: true, placeholder: 'Dr. Smith Medical Practice' },
+      { name: 'patient', label: 'Patient Name', type: 'text', required: true, placeholder: 'Patient Full Name' },
+      { name: 'services', label: 'Medical Services', type: 'textarea', required: true, placeholder: 'Describe medical services to be provided...' },
+      { name: 'fees', label: 'Service Fees', type: 'text', required: true, placeholder: '$200 per consultation' },
+      { name: 'insurance', label: 'Insurance Information', type: 'textarea', required: false, placeholder: 'Insurance coverage details...' },
+      { name: 'effectiveDate', label: 'Effective Date', type: 'date', required: true },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+  {
+    id: 'telemedicine',
+    type: 'telemedicine' as const,
+    title: 'Telemedicine Services Agreement',
+    description: 'Remote healthcare services delivery contract with technology requirements',
+    fields: [
+      { name: 'provider', label: 'Telemedicine Provider', type: 'text', required: true, placeholder: 'TeleMed Solutions Inc.' },
+      { name: 'patient', label: 'Patient Name', type: 'text', required: true, placeholder: 'Patient Full Name' },
+      { name: 'platform', label: 'Technology Platform', type: 'text', required: true, placeholder: 'Zoom, proprietary app, etc.' },
+      { name: 'services', label: 'Remote Services', type: 'textarea', required: true, placeholder: 'Virtual consultations, monitoring, etc...' },
+      { name: 'schedule', label: 'Service Schedule', type: 'text', required: true, placeholder: 'Weekly, monthly, as needed' },
+      { name: 'fees', label: 'Service Fees', type: 'text', required: true, placeholder: '$150 per session' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+
+  // Education & Training
+  {
+    id: 'education-services',
+    type: 'education-services' as const,
+    title: 'Educational Services Agreement',
+    description: 'Comprehensive agreement for educational institutions and service providers',
+    fields: [
+      { name: 'institution', label: 'Educational Institution', type: 'text', required: true, placeholder: 'University/School Name' },
+      { name: 'provider', label: 'Service Provider', type: 'text', required: true, placeholder: 'Education Service Company' },
+      { name: 'services', label: 'Educational Services', type: 'textarea', required: true, placeholder: 'Curriculum development, training programs...' },
+      { name: 'duration', label: 'Service Duration', type: 'text', required: true, placeholder: '1 academic year' },
+      { name: 'compensation', label: 'Compensation', type: 'text', required: true, placeholder: '$50,000 per semester' },
+      { name: 'deliverables', label: 'Deliverables', type: 'textarea', required: true, placeholder: 'Course materials, assessments, reports...' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+  {
+    id: 'student-enrollment',
+    type: 'student-enrollment' as const,
+    title: 'Student Enrollment Agreement',
+    description: 'Formal enrollment contract between educational institutions and students',
+    fields: [
+      { name: 'institution', label: 'Educational Institution', type: 'text', required: true, placeholder: 'University/College Name' },
+      { name: 'student', label: 'Student Name', type: 'text', required: true, placeholder: 'Student Full Name' },
+      { name: 'program', label: 'Academic Program', type: 'text', required: true, placeholder: 'Bachelor of Science in Computer Science' },
+      { name: 'tuition', label: 'Tuition Fees', type: 'text', required: true, placeholder: '$25,000 per year' },
+      { name: 'startDate', label: 'Program Start Date', type: 'date', required: true },
+      { name: 'duration', label: 'Program Duration', type: 'text', required: true, placeholder: '4 years' },
+      { name: 'requirements', label: 'Academic Requirements', type: 'textarea', required: true, placeholder: 'GPA requirements, attendance, etc...' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+
+  // Technology & Digital
+  {
+    id: 'cloud-services',
+    type: 'cloud-services' as const,
+    title: 'Cloud Services Agreement',
+    description: 'Comprehensive cloud computing and hosting services contract',
+    fields: [
+      { name: 'provider', label: 'Cloud Service Provider', type: 'text', required: true, placeholder: 'CloudTech Solutions' },
+      { name: 'client', label: 'Client Company', type: 'text', required: true, placeholder: 'Client Company Name' },
+      { name: 'services', label: 'Cloud Services', type: 'textarea', required: true, placeholder: 'Hosting, storage, computing, backup...' },
+      { name: 'sla', label: 'Service Level Agreement', type: 'text', required: true, placeholder: '99.9% uptime guarantee' },
+      { name: 'pricing', label: 'Pricing Model', type: 'text', required: true, placeholder: '$500/month or usage-based' },
+      { name: 'dataLocation', label: 'Data Center Location', type: 'text', required: true, placeholder: 'US East, EU West, etc.' },
+      { name: 'security', label: 'Security Requirements', type: 'textarea', required: true, placeholder: 'Encryption, compliance standards...' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+  {
+    id: 'mobile-app-development',
+    type: 'mobile-app-development' as const,
+    title: 'Mobile App Development Agreement',
+    description: 'Professional mobile application development contract with deliverables',
+    fields: [
+      { name: 'developer', label: 'App Developer/Agency', type: 'text', required: true, placeholder: 'Mobile Dev Studio' },
+      { name: 'client', label: 'Client Name', type: 'text', required: true, placeholder: 'Client Company/Individual' },
+      { name: 'appDescription', label: 'App Description', type: 'textarea', required: true, placeholder: 'Detailed app functionality and features...' },
+      { name: 'platforms', label: 'Target Platforms', type: 'text', required: true, placeholder: 'iOS, Android, or both' },
+      { name: 'timeline', label: 'Development Timeline', type: 'text', required: true, placeholder: '6 months' },
+      { name: 'cost', label: 'Development Cost', type: 'text', required: true, placeholder: '$75,000' },
+      { name: 'milestones', label: 'Project Milestones', type: 'textarea', required: true, placeholder: 'Design, development, testing phases...' },
+      { name: 'maintenance', label: 'Post-Launch Maintenance', type: 'text', required: true, placeholder: '12 months included' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+
+  // Transportation & Logistics
+  {
+    id: 'transportation-services',
+    type: 'transportation-services' as const,
+    title: 'Transportation Services Agreement',
+    description: 'Professional transportation and logistics services contract',
+    fields: [
+      { name: 'carrier', label: 'Transportation Company', type: 'text', required: true, placeholder: 'Express Logistics Inc.' },
+      { name: 'client', label: 'Client Name', type: 'text', required: true, placeholder: 'Shipping Client Company' },
+      { name: 'services', label: 'Transportation Services', type: 'textarea', required: true, placeholder: 'Freight, delivery, warehousing...' },
+      { name: 'routes', label: 'Service Routes', type: 'text', required: true, placeholder: 'Regional, national, international' },
+      { name: 'pricing', label: 'Pricing Structure', type: 'text', required: true, placeholder: '$2.50 per mile or flat rate' },
+      { name: 'insurance', label: 'Insurance Coverage', type: 'text', required: true, placeholder: '$1M liability coverage' },
+      { name: 'deliveryTerms', label: 'Delivery Terms', type: 'textarea', required: true, placeholder: 'Delivery timeframes, conditions...' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+  {
+    id: 'logistics-warehousing',
+    type: 'logistics-warehousing' as const,
+    title: 'Logistics & Warehousing Agreement',
+    description: 'Comprehensive warehousing and distribution services contract',
+    fields: [
+      { name: 'warehouse', label: 'Warehousing Company', type: 'text', required: true, placeholder: 'Global Warehouse Solutions' },
+      { name: 'client', label: 'Client Company', type: 'text', required: true, placeholder: 'Product Company Name' },
+      { name: 'services', label: 'Warehousing Services', type: 'textarea', required: true, placeholder: 'Storage, inventory management, fulfillment...' },
+      { name: 'space', label: 'Storage Space', type: 'text', required: true, placeholder: '10,000 sq ft' },
+      { name: 'duration', label: 'Contract Duration', type: 'text', required: true, placeholder: '2 years' },
+      { name: 'fees', label: 'Storage Fees', type: 'text', required: true, placeholder: '$5 per sq ft per month' },
+      { name: 'handling', label: 'Handling Services', type: 'textarea', required: true, placeholder: 'Receiving, picking, packing, shipping...' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+
+  // Entertainment & Media
+  {
+    id: 'talent-management',
+    type: 'talent-management' as const,
+    title: 'Talent Management Agreement',
+    description: 'Professional talent representation and management contract',
+    fields: [
+      { name: 'agency', label: 'Talent Agency/Manager', type: 'text', required: true, placeholder: 'Star Talent Management' },
+      { name: 'talent', label: 'Talent/Artist Name', type: 'text', required: true, placeholder: 'Artist Full Name' },
+      { name: 'services', label: 'Management Services', type: 'textarea', required: true, placeholder: 'Career guidance, booking, negotiations...' },
+      { name: 'commission', label: 'Commission Rate', type: 'text', required: true, placeholder: '15% of gross earnings' },
+      { name: 'exclusivity', label: 'Exclusivity Terms', type: 'text', required: true, placeholder: 'Exclusive worldwide representation' },
+      { name: 'duration', label: 'Contract Duration', type: 'text', required: true, placeholder: '3 years' },
+      { name: 'termination', label: 'Termination Clause', type: 'textarea', required: true, placeholder: 'Termination conditions and notice period...' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+  {
+    id: 'music-production',
+    type: 'music-production' as const,
+    title: 'Music Production Agreement',
+    description: 'Professional music recording and production services contract',
+    fields: [
+      { name: 'producer', label: 'Music Producer/Studio', type: 'text', required: true, placeholder: 'Platinum Records Studio' },
+      { name: 'artist', label: 'Artist/Band Name', type: 'text', required: true, placeholder: 'Artist or Band Name' },
+      { name: 'project', label: 'Project Description', type: 'textarea', required: true, placeholder: 'Album, EP, single production...' },
+      { name: 'budget', label: 'Production Budget', type: 'text', required: true, placeholder: '$50,000' },
+      { name: 'timeline', label: 'Production Timeline', type: 'text', required: true, placeholder: '6 months' },
+      { name: 'royalties', label: 'Royalty Split', type: 'text', required: true, placeholder: 'Producer 10%, Artist 90%' },
+      { name: 'deliverables', label: 'Deliverables', type: 'textarea', required: true, placeholder: 'Master recordings, mixing, mastering...' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+
+  // Construction & Engineering
+  {
+    id: 'construction-contract',
+    type: 'construction-contract' as const,
+    title: 'Construction Contract Agreement',
+    description: 'Comprehensive construction project contract with specifications',
+    fields: [
+      { name: 'contractor', label: 'Construction Company', type: 'text', required: true, placeholder: 'BuildRight Construction' },
+      { name: 'owner', label: 'Property Owner', type: 'text', required: true, placeholder: 'Property Owner Name' },
+      { name: 'project', label: 'Project Description', type: 'textarea', required: true, placeholder: 'Detailed construction project scope...' },
+      { name: 'location', label: 'Project Location', type: 'textarea', required: true, placeholder: 'Full project address and site details...' },
+      { name: 'contractPrice', label: 'Contract Price', type: 'text', required: true, placeholder: '$500,000' },
+      { name: 'timeline', label: 'Construction Timeline', type: 'text', required: true, placeholder: '12 months' },
+      { name: 'materials', label: 'Materials Specification', type: 'textarea', required: true, placeholder: 'Quality standards, approved materials...' },
+      { name: 'permits', label: 'Permits & Approvals', type: 'textarea', required: true, placeholder: 'Required permits and responsibilities...' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+  {
+    id: 'engineering-services',
+    type: 'engineering-services' as const,
+    title: 'Engineering Services Agreement',
+    description: 'Professional engineering consultation and design services contract',
+    fields: [
+      { name: 'engineer', label: 'Engineering Firm', type: 'text', required: true, placeholder: 'Advanced Engineering Solutions' },
+      { name: 'client', label: 'Client Name', type: 'text', required: true, placeholder: 'Client Company/Individual' },
+      { name: 'services', label: 'Engineering Services', type: 'textarea', required: true, placeholder: 'Design, analysis, consultation, inspection...' },
+      { name: 'scope', label: 'Project Scope', type: 'textarea', required: true, placeholder: 'Detailed engineering project requirements...' },
+      { name: 'fees', label: 'Professional Fees', type: 'text', required: true, placeholder: '$150/hour or $25,000 fixed' },
+      { name: 'deliverables', label: 'Deliverables', type: 'textarea', required: true, placeholder: 'Drawings, calculations, reports, certifications...' },
+      { name: 'liability', label: 'Professional Liability', type: 'text', required: true, placeholder: '$2M professional liability insurance' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+
+  // Food & Hospitality
+  {
+    id: 'restaurant-management',
+    type: 'restaurant-management' as const,
+    title: 'Restaurant Management Agreement',
+    description: 'Professional restaurant operations and management contract',
+    fields: [
+      { name: 'manager', label: 'Management Company', type: 'text', required: true, placeholder: 'Elite Restaurant Management' },
+      { name: 'owner', label: 'Restaurant Owner', type: 'text', required: true, placeholder: 'Restaurant Owner Name' },
+      { name: 'restaurant', label: 'Restaurant Name & Location', type: 'text', required: true, placeholder: 'Restaurant name and address' },
+      { name: 'services', label: 'Management Services', type: 'textarea', required: true, placeholder: 'Operations, staff, marketing, finances...' },
+      { name: 'fees', label: 'Management Fees', type: 'text', required: true, placeholder: '15% of gross revenue' },
+      { name: 'duration', label: 'Contract Duration', type: 'text', required: true, placeholder: '5 years' },
+      { name: 'performance', label: 'Performance Metrics', type: 'textarea', required: true, placeholder: 'Revenue targets, customer satisfaction...' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+  {
+    id: 'hotel-services',
+    type: 'hotel-services' as const,
+    title: 'Hotel Services Agreement',
+    description: 'Comprehensive hotel operations and guest services contract',
+    fields: [
+      { name: 'hotel', label: 'Hotel Name', type: 'text', required: true, placeholder: 'Grand Plaza Hotel' },
+      { name: 'provider', label: 'Service Provider', type: 'text', required: true, placeholder: 'Hospitality Services Inc.' },
+      { name: 'services', label: 'Hotel Services', type: 'textarea', required: true, placeholder: 'Housekeeping, concierge, maintenance, catering...' },
+      { name: 'standards', label: 'Service Standards', type: 'textarea', required: true, placeholder: 'Quality standards and performance metrics...' },
+      { name: 'pricing', label: 'Service Pricing', type: 'text', required: true, placeholder: '$50,000/month or per-service rates' },
+      { name: 'duration', label: 'Contract Duration', type: 'text', required: true, placeholder: '3 years' },
+      { name: 'staffing', label: 'Staffing Requirements', type: 'textarea', required: true, placeholder: 'Staff qualifications and training...' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+
+  // Financial Services
+  {
+    id: 'financial-advisory',
+    type: 'financial-advisory' as const,
+    title: 'Financial Advisory Agreement',
+    description: 'Professional financial planning and investment advisory services',
+    fields: [
+      { name: 'advisor', label: 'Financial Advisor/Firm', type: 'text', required: true, placeholder: 'Wealth Management Partners' },
+      { name: 'client', label: 'Client Name', type: 'text', required: true, placeholder: 'Client Full Name' },
+      { name: 'services', label: 'Advisory Services', type: 'textarea', required: true, placeholder: 'Investment planning, portfolio management, retirement planning...' },
+      { name: 'assets', label: 'Assets Under Management', type: 'text', required: true, placeholder: '$500,000' },
+      { name: 'fees', label: 'Advisory Fees', type: 'text', required: true, placeholder: '1.5% annually of AUM' },
+      { name: 'objectives', label: 'Investment Objectives', type: 'textarea', required: true, placeholder: 'Risk tolerance, goals, timeline...' },
+      { name: 'reporting', label: 'Reporting Schedule', type: 'text', required: true, placeholder: 'Quarterly reports and annual review' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  },
+  {
+    id: 'insurance-services',
+    type: 'insurance-services' as const,
+    title: 'Insurance Services Agreement',
+    description: 'Professional insurance brokerage and risk management services',
+    fields: [
+      { name: 'broker', label: 'Insurance Broker/Agency', type: 'text', required: true, placeholder: 'Premier Insurance Brokers' },
+      { name: 'client', label: 'Client Name', type: 'text', required: true, placeholder: 'Client Company/Individual' },
+      { name: 'services', label: 'Insurance Services', type: 'textarea', required: true, placeholder: 'Policy procurement, claims management, risk assessment...' },
+      { name: 'coverage', label: 'Insurance Coverage Types', type: 'textarea', required: true, placeholder: 'General liability, property, workers comp...' },
+      { name: 'commission', label: 'Commission Structure', type: 'text', required: true, placeholder: '10% of premium or flat fee' },
+      { name: 'duration', label: 'Service Duration', type: 'text', required: true, placeholder: '3 years with auto-renewal' },
+      { name: 'responsibilities', label: 'Broker Responsibilities', type: 'textarea', required: true, placeholder: 'Policy review, claims assistance, renewals...' },
+      { name: 'jurisdiction', label: 'Governing Law', type: 'text', required: true, placeholder: 'State/Country' }
+    ]
+  }
+];
+
+// Combine all contracts
+export const contractTemplates: Contract[] = [...baseContracts, ...additionalContracts];
 export const contractCategories = [
   {
     name: 'Business & Corporate',
-    description: 'Joint ventures, distribution, agency, and corporate agreements',
+    description: 'Joint ventures, distribution, agency, corporate, and business acquisition agreements',
     contracts: [
       'nda',
       'joint-venture',
@@ -549,6 +825,8 @@ export const contractCategories = [
       'consulting',
       'mou',
       'manufacturing-supply'
+      'sla',
+      'business-purchase'
     ]
   },
   {
@@ -578,7 +856,9 @@ export const contractCategories = [
       'software-license',
       'saas-agreement',
       'affiliate-marketing',
-      'influencer-sponsorship'
+      'influencer-sponsorship',
+      'cloud-services',
+      'mobile-app-development'
     ]
   },
   {
@@ -606,6 +886,76 @@ export const contractCategories = [
       'privacy-policy',
       'gdpr-dpa',
       'terms-conditions'
+    ]
+  },
+  {
+    name: 'Services & Professional',
+    description: 'Professional services, consulting, and specialized service agreements',
+    contracts: [
+      'website-development',
+      'photography-services',
+      'catering-services',
+      'equipment-rental',
+      'maintenance-services',
+      'social-media-management',
+      'personal-training',
+      'tutoring-services'
+    ]
+  },
+  {
+    name: 'Healthcare & Medical',
+    description: 'Medical services, telemedicine, and healthcare provider agreements',
+    contracts: [
+      'medical-services',
+      'telemedicine'
+    ]
+  },
+  {
+    name: 'Education & Training',
+    description: 'Educational institutions, training programs, and student services',
+    contracts: [
+      'education-services',
+      'student-enrollment'
+    ]
+  },
+  {
+    name: 'Transportation & Logistics',
+    description: 'Transportation services, logistics, and supply chain management',
+    contracts: [
+      'transportation-services',
+      'logistics-warehousing'
+    ]
+  },
+  {
+    name: 'Entertainment & Media',
+    description: 'Talent management, music production, and entertainment industry contracts',
+    contracts: [
+      'talent-management',
+      'music-production'
+    ]
+  },
+  {
+    name: 'Construction & Engineering',
+    description: 'Construction projects, engineering services, and infrastructure development',
+    contracts: [
+      'construction-contract',
+      'engineering-services'
+    ]
+  },
+  {
+    name: 'Food & Hospitality',
+    description: 'Restaurant management, hotel services, and hospitality industry contracts',
+    contracts: [
+      'restaurant-management',
+      'hotel-services'
+    ]
+  },
+  {
+    name: 'Financial Services',
+    description: 'Financial advisory, insurance services, and wealth management contracts',
+    contracts: [
+      'financial-advisory',
+      'insurance-services'
     ]
   }
 ];

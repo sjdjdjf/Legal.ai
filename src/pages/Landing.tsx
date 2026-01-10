@@ -133,21 +133,27 @@ export default function Landing() {
               Professional Contract Templates
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Six essential business contracts, professionally drafted and legally sound
+              60+ professional contract templates across 12 specialized categories
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: 'Business & Corporate', description: 'Joint ventures, distribution, agency agreements' },
+              { title: 'Business & Corporate', description: 'Joint ventures, distribution, agency, acquisitions' },
               { title: 'Employment & HR', description: 'Employment contracts, offer letters, termination' },
               { title: 'Property & Real Estate', description: 'Rental, commercial lease, purchase agreements' },
-              { title: 'Intellectual Property', description: 'Software licenses, SaaS, IP protection' },
+              { title: 'Intellectual Property & Tech', description: 'Software licenses, SaaS, cloud services, mobile apps' },
               { title: 'Finance & Investment', description: 'Loans, investments, promissory notes' },
               { title: 'Family & Personal', description: 'Prenuptial, medical power of attorney' },
               { title: 'Compliance & Data', description: 'Privacy policies, GDPR, data protection' },
-              { title: 'Construction & Services', description: 'Construction, maintenance, service agreements' },
-              { title: 'Trade & Logistics', description: 'Shipping, freight, supply chain contracts' }
+              { title: 'Services & Professional', description: 'Professional services, consulting, specialized services' },
+              { title: 'Healthcare & Medical', description: 'Medical services, telemedicine agreements' },
+              { title: 'Education & Training', description: 'Educational institutions, training programs' },
+              { title: 'Transportation & Logistics', description: 'Transportation, warehousing, supply chain' },
+              { title: 'Entertainment & Media', description: 'Talent management, music production' },
+              { title: 'Construction & Engineering', description: 'Construction projects, engineering services' },
+              { title: 'Food & Hospitality', description: 'Restaurant management, hotel services' },
+              { title: 'Financial Services', description: 'Financial advisory, insurance services' }
             ].map((contract, index) => (
               <div key={index} className="bg-gray-50 rounded-xl p-8 hover:bg-white hover:shadow-lg transition-all duration-300">
                 <div className="flex items-start space-x-3">
@@ -166,7 +172,7 @@ export default function Landing() {
               to="/pricing"
               className="inline-flex items-center space-x-2 bg-navy-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-navy-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
             >
-              <span>Access 35+ Templates</span>
+              <span>Access 60+ Templates</span>
               <ArrowRight className="h-5 w-5" />
             </Link>
           </div>
