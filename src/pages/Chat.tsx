@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Bot, Lock, Crown, ArrowRight, CheckCircle } from 'lucide-react';
+import { Bot, Lock, Crown, ArrowRight, CircleCheck as CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import faqData from '../data/faq.json';
@@ -68,9 +68,9 @@ export default function Chat() {
           </div>
           <p className="text-xl text-gray-600 mb-4">
             {isCEO 
-              ? '🔑 CEO Access: Complete legal knowledge base with 100+ professional Q&As'
+              ? '🔑 CEO Access: Complete legal knowledge base with 100+ professional Q&As + 60+ contract templates'
               : isPremium 
-                ? 'Premium Access: Complete legal knowledge base with 100+ Q&As'
+                ? 'Premium Access: Complete legal knowledge base with 100+ Q&As + 60+ contract templates'
                 : `Access ${accessibleTotal} of ${totalQuestions} legal Q&As`
             }
           </p>
@@ -82,7 +82,6 @@ export default function Chat() {
                 <Link to="/pricing" className="text-gold-600 hover:text-gold-700 font-medium ml-1">
                   Upgrade to Premium
                 </Link> to unlock all {totalQuestions} legal Q&As.
-                <br />Plus get access to 60+ professional contract templates.
               </p>
             </div>
           )}
